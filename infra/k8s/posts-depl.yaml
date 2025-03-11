@@ -14,5 +14,6 @@ spec:
     spec:
       containers:
         - name: posts
-          image: micro-blog/posts
+          image: sarkisovdev/posts
+          imagePullPolicy: Never
 
